@@ -55,25 +55,23 @@ nav {
   align-items: center;
   position: sticky;
   /* background: hsl(285, 83%, 55%); */
-  background-image: linear-gradient(
-    90deg,
-    #4e4ad9,
-    #af14b9,
-    #e20088,
-    #f0447a,
-    #4e4ad9
-  );
+  background-image: linear-gradient(90deg,
+      #4e4ad9,
+      #af14b9,
+      #e20088,
+      #f0447a,
+      #4e4ad9);
   height: 85px;
 }
 
-nav > ul {
+nav>ul {
   display: flex;
   list-style: none;
   gap: 2px;
   padding: 0;
 }
 
-nav > div > img {
+nav>div>img {
   width: 35px;
   height: fit-content;
   padding: 39px 5px;
@@ -103,7 +101,7 @@ a {
   font-size: 20px;
 }
 
-.nav-panel > li > a {
+.nav-panel>li>a {
   overflow: hidden;
   color: white;
   text-decoration: none;
@@ -115,30 +113,28 @@ a {
   line-height: 30px;
 }
 
-.nav-panel > li > a::after {
+.nav-panel>li>a::after {
   content: "";
   position: absolute;
   bottom: 1px;
   left: 0;
   width: 0px;
   height: 2px;
-  background-image: linear-gradient(
-    to left,
-    #fff,
-    #4e4ad9,
-    #af14b9,
-    #fff,
-    #e20088,
-    #e7a4b9,
-    #ffffff
-  );
+  background-image: linear-gradient(to left,
+      #fff,
+      #4e4ad9,
+      #af14b9,
+      #fff,
+      #e20088,
+      #e7a4b9,
+      #ffffff);
   background-size: 200%;
   border-radius: 50px;
   transition: 0.7s ease;
   animation: anim 2s linear infinite;
 }
 
-.nav-panel > li > a:hover::after {
+.nav-panel>li>a:hover::after {
   width: 150px;
 }
 
@@ -152,16 +148,16 @@ a {
   }
 }
 
-nav > ul {
+nav>ul {
   margin: 0;
 }
 
-nav > ul:nth-child(3) {
+nav>ul:nth-child(3) {
   display: flex;
   align-items: center;
 }
 
-nav > ul:nth-child(3) > li > a {
+nav>ul:nth-child(3)>li>a {
   padding: 10px 20px;
   border-radius: 3px;
   font-weight: 600;
@@ -178,11 +174,11 @@ nav .btns {
   display: none;
 }
 
-.buttons > a {
+.buttons>a {
   transition: 0.6s ease;
 }
 
-.buttons > a:hover {
+.buttons>a:hover {
   background-color: black;
   color: white;
 }
@@ -207,7 +203,7 @@ nav .btns {
   box-shadow: 12px 12px 20px 1.2px var(--grey);
 }
 
-.main-text > h1 {
+.main-text>h1 {
   font-size: 80px;
   line-height: 0;
 
@@ -225,7 +221,7 @@ nav .btns {
   font-size: 20px;
 }
 
-.main-p2 > a > span {
+.main-p2>a>span {
   color: #4e4ad9;
   font-family: "SOFIAPROSOFTBOLD";
 }
@@ -234,7 +230,7 @@ nav .btns {
   margin: 15px 0;
 }
 
-.main-img > img {
+.main-img>img {
   border-radius: 15px;
   box-shadow: 14px 14px 20px 1.2px #b9bac3;
 }
@@ -246,7 +242,7 @@ nav .btns {
   align-items: center;
 }
 
-.courses > h1 {
+.courses>h1 {
   text-align: center;
 }
 
@@ -277,7 +273,7 @@ nav .btns {
   transition: 0.6s ease;
 }
 
-.card > img {
+.card>img {
   border-radius: 35px 12px;
   border: #6064ad 1px solid;
   width: 400px;
@@ -296,11 +292,11 @@ nav .btns {
   padding: 15px 25px 15px 0;
 }
 
-.card-text > h2 {
+.card-text>h2 {
   text-align: center;
 }
 
-.card-text > p {
+.card-text>p {
   text-indent: 12px;
   font-size: 19px;
   text-align: justify;
@@ -316,7 +312,7 @@ nav .btns {
   margin-top: 10px;
 }
 
-.card-action > a {
+.card-action>a {
   color: var(--white);
   border: 1px solid var(--white);
   font-size: 18px;
@@ -327,7 +323,7 @@ nav .btns {
   transition: 0.6s ease;
 }
 
-.card-action > a:hover {
+.card-action>a:hover {
   background-color: #989cd0;
   color: var(--blue);
   border: 1px solid var(--white);
@@ -360,7 +356,7 @@ nav .btns {
   border: 1px var(--white) solid;
 }
 
-.search > img {
+.search>img {
   width: 450px;
   border-radius: 12px;
   box-shadow: 12px 12px 20px 0.5px #4e518e;
@@ -373,7 +369,7 @@ nav .btns {
   gap: 25px;
 }
 
-.search-text > p {
+.search-text>p {
   text-indent: 15px;
 }
 
@@ -383,7 +379,7 @@ nav .btns {
   gap: 3px;
 }
 
-.search-form > input {
+.search-form>input {
   padding: 10px 12px 10px 35px;
   width: 250px;
   font-size: 20px;
@@ -393,7 +389,7 @@ nav .btns {
   outline: none;
 }
 
-.search-form > input::-webkit-input-placeholder {
+.search-form>input::-webkit-input-placeholder {
   color: #6064adb8;
   font-family: "9Slide03SOFIAPROSOFTLIGHT";
 }
@@ -405,7 +401,7 @@ nav .btns {
   font-size: 18px;
 }
 
-.search-form > a {
+.search-form>a {
   color: var(--white);
   border: 1px solid var(--white);
 
@@ -417,7 +413,7 @@ nav .btns {
   font-family: "SOFIAPROSOFTBOLD";
 }
 
-.search-form > a:hover {
+.search-form>a:hover {
   background-color: var(--light-blue);
   color: var(--blue);
 }
@@ -435,7 +431,7 @@ nav .btns {
   border: 1px solid var(--blue);
 }
 
-.about-us-container > img {
+.about-us-container>img {
   box-sizing: border-box;
   border-radius: 35px 12px;
   width: 600px;
@@ -447,16 +443,16 @@ nav .btns {
   justify-content: center;
 }
 
-.about-us-text > h1 {
+.about-us-text>h1 {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.about-us-text-block > h2 {
+.about-us-text-block>h2 {
   padding: 0 25px;
 }
 
-.about-us-text-block > p {
+.about-us-text-block>p {
   font-size: 20px;
   text-indent: 15px;
   text-align: justify;
@@ -466,14 +462,12 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: start;
-  background-image: linear-gradient(
-    90deg,
-    #4e4ad9,
-    #af14b9,
-    #e20088,
-    #f0447a,
-    #4e4ad9
-  );
+  background-image: linear-gradient(90deg,
+      #4e4ad9,
+      #af14b9,
+      #e20088,
+      #f0447a,
+      #4e4ad9);
   padding: 100px 0;
 }
 
@@ -509,12 +503,12 @@ footer {
   opacity: 1;
 }
 
-.payment-cont > img {
+.payment-cont>img {
   width: 70px;
   border-radius: 15px;
 }
 
-.footer-logo-cont > img {
+.footer-logo-cont>img {
   width: 30px;
 }
 
@@ -564,7 +558,7 @@ footer {
   font-weight: 200;
 }
 
-.footer-action > input {
+.footer-action>input {
   padding: 10px 12px;
   width: 250px;
   font-size: 20px;
@@ -573,12 +567,12 @@ footer {
   border-radius: 10px;
 }
 
-.footer-action > input::-webkit-input-placeholder {
+.footer-action>input::-webkit-input-placeholder {
   color: #6064adb8;
   font-family: "9Slide03SOFIAPROSOFTLIGHT";
 }
 
-.footer-action > button {
+.footer-action>button {
   color: var(--white);
   border: 1px solid var(--white);
   background-color: var(--light-blue);
@@ -589,7 +583,7 @@ footer {
   font-family: "SOFIAPROSOFTBOLD";
 }
 
-.footer-action > button:hover {
+.footer-action>button:hover {
   background-color: var(--blue);
 }
 
@@ -607,8 +601,10 @@ footer {
 
 .video-container {
   position: relative;
-  width: 560px; /* Set the width of your video container */
-  height: 315px; /* Set the height of your video container */
+  width: 560px;
+  /* Set the width of your video container */
+  height: 315px;
+  /* Set the height of your video container */
 }
 
 .video-container iframe {
